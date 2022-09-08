@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SIMPLY Portfolio</title>
+
+  <link rel="stylesheet" href="css/styles-portfolio.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/9cb608ef95.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- || NAVBAR SECTION -->
+  <div class="nav-container">
+
+    <div class="top-nav">
+      <div class="quote">
+        <a class="quote-btn" href="contact-us.html">REQUEST A QUOTE</a>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square fa-2xl"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square fa-2xl"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+      </div>
+      <div class="email">
+        <a href="mailto:lawrence.hill@hotmail.co.uk">
+          <i class="fa-solid fa-envelope nav-solid"></i>
+          <p>enquiries@ldtcontractors.co.uk</p>
+        </a>
+      </div>
+    </div>
+    <div class="mid-nav">
+      <div class="nav-logo">
+        <img class="image-logo" src="images/simply-logo.png" alt="Logo Image">
+        <h1>SIMPLY PRESSURE WASHING</h1>
+      </div>
+
+      <div class="call-us">
+        <a href=“tel:0778148476”>
+        <i class="fa-solid fa-phone nav-solid nav-phone"></i>
+        <p>01268 544 146</p>
+        </a>
+      </div>
+    </div>
+    <div class="bottom-nav">
+      <div class="nav-options">
+        <a class="nav-links" href="index.html">HOME</a>
+        <div class="nav-dropdown dropdown">
+          <button class="dropbtn" onclick="myFunction()">SERVICES
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a class="link1" href="commercial.html">COMMERCIAL CLEANING</a>
+            <a class="link2" href="residential.html">RESIDENTIAL CLEANING</a>
+            <a class="link3" href="public.html">PUBLIC CLEANING</a>
+          </div>
+        </div>
+        <a class="nav-links" href="portfolio.html">PORTFOLIO</a>
+        <a class="nav-links" href="contact-us.html">CONTACT US</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- || HEADING SECTION -->
+  <div class="heading-container">
+
+    <h1 class="heading1">PORTFOLIO</h1>
+
+  </div>
+
+
+  <!-- || GALLERY SECTION -->
+  <div class="gallery-container">
+
+    <div class="gallery-grid">
+
+      <!-- USE CODE TO ADD NEW IMAGE -->
+      <!-- <div class="img-box">
+        <img src="images/pressure1.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">LOREM IPSUM</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="img-box" onclick="openModal();currentSlide(1)">
+        <img src="images/pressure1.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(2)">
+        <img src="images/pressure1.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(3)">
+        <img src="images/pressure2.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(4)">
+        <img src="images/pressure2.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(5)">
+        <img src="images/pressure3.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(6)">
+        <img src="images/pressure3.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(7)">
+        <img src="images/pressure4.webp" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(8)">
+        <img src="images/pressure4.webp" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(9)">
+        <img src="images/pressure1.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(10)">
+        <img src="images/pressure1.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(11)">
+        <img src="images/pressure2.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(12)">
+        <img src="images/pressure2.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(13)">
+        <img src="images/pressure3.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(14)">
+        <img src="images/pressure3.jpeg" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(15)">
+        <img src="images/pressure4.webp" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">BEFORE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box" onclick="openModal();currentSlide(16)">
+        <img src="images/pressure4.webp" alt="">
+        <div class="overlay">
+          <div class="img-text">
+            <h3 class="img-title">AFTER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- || MODAL SECTION -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 16</div>
+        <img src="images/pressure1.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 16</div>
+        <img src="images/pressure1.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 16</div>
+        <img src="images/pressure2.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 16</div>
+        <img src="images/pressure2.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 16</div>
+        <img src="images/pressure3.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 16</div>
+        <img src="images/pressure3.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 16</div>
+        <img src="images/pressure4.webp" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 16</div>
+        <img src="images/pressure4.webp" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 16</div>
+        <img src="images/pressure1.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10 / 16</div>
+        <img src="images/pressure1.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11/ 16</div>
+        <img src="images/pressure2.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">12 / 16</div>
+        <img src="images/pressure2.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">13 / 16</div>
+        <img src="images/pressure3.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">14 / 16</div>
+        <img src="images/pressure3.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">15 / 16</div>
+        <img src="images/pressure4.webp" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">16 / 16</div>
+        <img src="images/pressure4.webp" style="width:100%">
+      </div>
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div class="caption-container">
+      <h3 id="caption"></h3>
+    </div>
+
+
+    <!-- USE CODE TO LINK IMAGE WITH CAPTION -->
+    <!-- <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 1">
+    </div> -->
+
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 1">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 2">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 3">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 4">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 5">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 6">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 7">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 8">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 9">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 10">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 11">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 12">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 13">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 14">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 15">
+    </div>
+    <div class="column">
+      <img class="demo" alt="EXAMPLE IMAGE 16">
+    </div>
+
+  </div>
+  </div>
+
+  </div>
+
+
+
+
+  <!-- || FOOTER SECTION -->
+  <div class="contact-container">
+
+    <h2 class="footer-title">SIMPLY PRESSURE WASHING</h2>
+    <div class="contact-grid">
+      <div class="left-info">
+        <div class="">
+          <a href="https://goo.gl/maps/A99ibMBTWaoDvkL58">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>LDT CONTRACTORS, 63/66 Hatton Garden,
+              <br>
+              Fifth Floor, Suite 23, London, England, EC1N 8LE
+            </p>
+          </a>
+        </div>
+        <div class="">
+          <a href="mailto:lawrence.hill@hotmail.co.uk">
+            <i class="fa-solid fa-envelope"></i>
+            <p>enquiries@ldtcontractors.co.uk</p>
+          </a>
+        </div>
+        <div class="">
+          <a href=“tel:0778148476”>
+            <i class="fa-solid fa-phone"></i>
+            <p>01268 544 146</p>
+          </a>
+        </div>
+        <div class="">
+          <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square fa-xl"></i></a>
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square fa-xl"></i></a>
+          <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter fa-xl"></i></a>
+        </div>
+      </div>
+      <div class="mid-serv">
+        <div class="">
+          <a class="nav nav-links" href="commercial.html">Commercial Cleaning</a>
+        </div>
+        <div class="">
+          <a class="nav nav-links" href="residential.html">Residential Cleaning</a>
+        </div>
+        <div class="">
+          <a class="nav nav-links" href="public.html">Public Cleaning</a>
+        </div>
+
+      </div>
+      <div class="right-links">
+        <div class="">
+          <a class="nav nav-links" href="index.html">Home</a>
+        </div>
+        <div class="">
+          <a class="nav nav-links" href="services.html">Services</a>
+        </div>
+        <div class="">
+          <a class="nav nav-links" href="portfolio.html">Portfolio</a>
+        </div>
+        <div class="">
+          <a class="nav nav-links" href="contact-us.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <Footer>© Copyright SIMPLY Pressure Washing Limited 2022. All Rights Reserved. Website Design by Lawrence Hill.</footer>
+
+
+  <script>
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
