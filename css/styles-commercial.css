@@ -337,7 +337,7 @@ footer {
 
 .service1-container h1:hover {
   color: #30C5FF;
-  cursor: pointer;
+  cursor: default;
   text-shadow: 2px 2px #1B262C;
 }
 
@@ -393,7 +393,7 @@ footer {
 
 .service2-container h1:hover {
   color: #30C5FF;
-  cursor: pointer;
+  cursor: default;
   text-shadow: 2px 2px #1B262C;
 }
 
@@ -451,7 +451,7 @@ footer {
 
 .service-container-para h1:hover {
   color: #30C5FF;
-  cursor: pointer;
+  cursor: default;
   text-shadow: 2px 2px #1B262C;
 }
 
@@ -503,7 +503,7 @@ footer {
 
 .service-container-para-2 h1:hover {
   color: #30C5FF;
-  cursor: pointer;
+  cursor: default;
   text-shadow: 2px 2px #1B262C;
 }
 
