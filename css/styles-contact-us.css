@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
   background-color: white;
   color: white;
   margin: 0;
@@ -89,7 +89,7 @@ footer {
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 1px;
-  clip-path: polygon(0 0, 100% 0%, 92.5% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 91.7% 100%, 0% 100%);
 }
 
 .quote-btn:hover {
@@ -119,7 +119,7 @@ footer {
   right: 0;
   top: 0;
   line-height: 3rem;
-  margin-right: 4.53rem;
+  margin-right: 4.3%;
   z-index: 1;
 }
 
@@ -158,17 +158,20 @@ footer {
 
 .image-logo {
   position: absolute;
-  width: 6.65vw;
-  left: 20%;
+  width: 7%;
+  left: 20.7%;
+  top: -3.1rem;
 }
 
 .call-us {
-  margin: 0;
-  float: right;
-  width: 21.5%;
-  text-align: left;
-  background-color: white;
-  padding-left: 1rem;
+  position: absolute;
+  width: 17.4rem;
+  color: #023859;
+  right: 0;
+  top: 0;
+  line-height: 4rem;
+  margin-right: 4.3%;
+  z-index: 1;
 }
 
 .call-us p {
@@ -226,7 +229,7 @@ footer {
 }
 
 .dropdown .dropbtn {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
@@ -259,7 +262,7 @@ footer {
 }
 
 .dropdown-content a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
@@ -359,7 +362,7 @@ textarea {
   margin: 0 auto 1rem;
   width: 90%;
   resize: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -370,7 +373,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
   color: #8C8C8C;
@@ -379,7 +382,7 @@ textarea::placeholder {
 [type="file"] {
   text-transform: capitalize;
   width: 60%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
   color: #8C8C8C;
@@ -398,7 +401,7 @@ textarea::placeholder {
   padding: 0.5rem 2rem 0.5rem 1.25rem;
   text-shadow: 1px 1px #1b262c;
   box-shadow: 1px 1px 5px #1b262c;
-  clip-path: polygon(0 0, 100% 0%, 89% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 88.4% 100%, 0% 100%);
   margin-left: 1rem;
   cursor: pointer;
   border: none;
@@ -419,7 +422,7 @@ button[type=submit] {
   padding: 0.5rem 1.25rem 0.5rem 2rem;
   text-shadow: 1px 1px #1b262c;
   box-shadow: 1px 1px 5px #1b262c;
-  clip-path: polygon(19.75% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
   border: none;
   cursor: pointer;
 }
@@ -522,21 +525,21 @@ iframe {
 
 .fa-location-dot {
   float: left;
-  padding: 0.65rem 0.775rem;
+  padding: 1.05rem 0.775rem;
   margin-left: -3rem;
   margin-right: 1rem;
 }
 
 .fa-envelope {
   float: left;
-  padding: 0.0785rem 0.65rem;
+  padding: 0.2785rem 0.65rem;
   margin-left: -3rem;
   margin-right: 1rem;
 }
 
 .fa-phone {
   float: left;
-  padding: 0.0785rem 0.65rem;
+  padding: 0.2785rem 0.65rem;
   margin-left: -3rem;
   margin-right: 1rem;
 }
