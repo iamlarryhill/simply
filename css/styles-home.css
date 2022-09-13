@@ -157,11 +157,15 @@ footer {
   background-color: white;
 }
 
-.image-logo {
+.nav-logo {
+  height:10rem;
   position: absolute;
-  width: 7%;
   left: 20.7%;
-  top: -3.1rem;
+  top: -2.9rem;
+}
+
+.image-logo {
+  height: 95%;
 }
 
 .call-us {
@@ -180,7 +184,6 @@ footer {
   letter-spacing: 1px;
   font-size: 2rem;
   font-weight: 600;
-
 }
 
 .nav-phone {
