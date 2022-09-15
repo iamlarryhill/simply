@@ -501,19 +501,6 @@ footer {
   clip-path: polygon(10.2% 0, 100% 0%, 89.8% 100%, 0% 100%);
 }
 
-.deliver-btn:after {
-  content: "";
-  position: absolute;
-  margin: -20px;
-  width: 50px;
-  height: 6rem;
-  top: 0;
-  right: 26.5%;
-  transform: rotate(30deg);
-  background-color: RED;
-}
-
-
 .deliver-btn:hover {
   background-color: white;
 }
