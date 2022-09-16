@@ -158,7 +158,7 @@ footer {
 }
 
 .nav-logo {
-  height:10rem;
+  height: 10rem;
   position: absolute;
   left: 20.7%;
   top: -2.9rem;
@@ -184,7 +184,6 @@ footer {
   letter-spacing: 1px;
   font-size: 2rem;
   font-weight: 600;
-
 }
 
 .nav-phone {
@@ -501,6 +500,18 @@ footer {
   clip-path: polygon(10.2% 0, 100% 0%, 89.8% 100%, 0% 100%);
 }
 
+.deliver-btn:after {
+  content: "";
+  position: absolute;
+  margin: -20px;
+  width: 50px;
+  height: 6rem;
+  top: 0;
+  right: 26.5%;
+  transform: rotate(30deg);
+  background-color: RED;
+}
+
 .deliver-btn:hover {
   background-color: white;
 }
@@ -709,4 +720,188 @@ footer {
   text-align: right;
   padding: 1rem 0;
   padding-right: 5rem;
+}
+
+@media only screen and (max-width : 500px) {
+
+  /* || Top Nav Section */
+  .top-nav {
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    z-index: 999;
+  }
+
+  .top-nav:after {
+    display: none;
+  }
+
+  .quote-btn {
+    border-radius: 3px;
+    clip-path: inherit;
+  }
+
+  .social {
+    float: left;
+    margin: 0 1.05rem;
+  }
+
+  .email {
+    /* position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 4.3%; */
+    display: none;
+  }
+
+  .email p {
+    margin: 0;
+    float: right;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+
+  .nav-solid {
+    padding: 1rem !important;
+    float: left !important;
+  }
+
+  /* || Middle Nav Section */
+  .mid-nav {
+    text-align: center;
+  }
+
+  .mid-nav h1 {
+    width: 50vw;
+    font-size: 3rem;
+    margin-left: 0;
+    line-height: 3rem;
+    z-index: 1;
+    float: left;
+    padding-left: 1.25rem;
+    text-align: left;
+  }
+
+  .nav-logo {
+    position: relative;
+    float: right;
+    height: 144px;
+    left: 0;
+    top: 0;
+    padding-right: 4rem;
+  }
+
+  .call-us {
+    position: absolute;
+    width: 17.4rem;
+    color: #023859;
+    right: 0;
+    top: 0;
+    line-height: 4rem;
+    margin-right: 4.3%;
+    z-index: 1;
+    display: none;
+  }
+
+  .call-us p {
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .nav-phone {
+    padding: 1.5rem 1rem !important;
+  }
+
+  /* || Bottom Nav Section */
+  .bottom-nav {
+    float: inherit;
+    width: 100%;
+    background-color: #023859;
+    line-height: 3rem;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .bottom-nav:after {
+    display: none;
+  }
+
+  .nav-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-links {
+    margin: 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #1B262C;
+  }
+
+  /* || DROPDOWN HELP */
+  .nav-dropdown {
+    width: auto;
+    display: inline-flex;
+    margin: 0;
+    line-height: normal;
+  }
+
+  .dropdown .dropbtn {
+    font-family: 'Saira', sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #1B262C;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+  }
+
+  .dropbtn:hover {
+    cursor: pointer;
+    color: #30C5FF;
+  }
+
+  .dropdown-content {
+    top: 2.97rem;
+    width: 100%;
+    padding-left: 0;
+    clip-path: none;
+    flex-direction: column;
+    line-height: 1rem;
+  }
+
+  .dropdown-content a {
+    font-family: 'Saira', sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 3.03rem;
+    text-shadow: 1px 1px #1B262C;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .dropdown-content a:hover {
+    color: #023859;
+    font-weight: 800;
+    text-shadow: none;
+  }
+
+  .show {
+    display: flex;
+  }
 }
