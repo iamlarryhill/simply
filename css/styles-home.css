@@ -722,7 +722,7 @@ footer {
   padding-right: 5rem;
 }
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 600px) {
 
   /* || Top Nav Section */
   .top-nav {
@@ -903,5 +903,29 @@ footer {
 
   .show {
     display: flex;
+  }
+
+  .heading-container {
+    display: none;
+  }
+
+  .about-container {
+    display: none;
+  }
+
+  .service-container {
+    display: none;
+  }
+
+  .deliver-container {
+    display: none;
+  }
+
+  .contact-container {
+    display: none;
+  }
+
+  footer {
+    display: none;
   }
 }
