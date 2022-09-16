@@ -736,71 +736,70 @@ footer {
   }
 
   .email {
-    /* position: absolute;
-    right: 0;
-    top: 0;
-    margin-right: 4.3%; */
-    display: none;
+    position: absolute;
+    left: 0.5rem;
+    top: 7rem;
+    margin-right: 0;
+    z-index: 5;
+    width: 75%;
+    line-height: 2rem;
+    text-align: left;
   }
 
   .email p {
     margin: 0;
-    float: right;
+    float: none;
     letter-spacing: 1px;
     font-weight: 600;
   }
 
   .nav-solid {
-    padding: 1rem !important;
+    padding: 0.5rem !important;
     float: left !important;
+    margin: 0;
   }
 
   /* || Middle Nav Section */
   .mid-nav {
     text-align: center;
+    height: 10rem;
   }
 
   .mid-nav h1 {
-    width: 50vw;
-    font-size: 3rem;
+    width: 100vw;
+    font-size: 1.6rem;
     margin-left: 0;
-    line-height: 3rem;
-    z-index: 1;
-    float: left;
-    padding-left: 1.25rem;
-    text-align: left;
   }
 
   .nav-logo {
-    position: relative;
-    float: right;
-    height: 144px;
-    left: 0;
-    top: 0;
-    padding-right: 1.25rem;
+    position: absolute;
+    clear: none;
+    height: 7.5rem;
+    right: -13rem;
+    top: 2.7rem;
   }
 
   .call-us {
     position: absolute;
-    width: 17.4rem;
+    width: 75%;
     color: #023859;
-    right: 0;
-    top: 0;
-    line-height: 4rem;
-    margin-right: 4.3%;
+    left: 0.5rem;
+    top: 6.5rem;
+    line-height: 2rem;
+    margin-right: 0;
     z-index: 1;
-    display: none;
+    text-align: left;
   }
 
   .call-us p {
     margin: 0;
     letter-spacing: 1px;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
   .nav-phone {
-    padding: 1.5rem 1rem !important;
+    padding: 0.5rem !important;
   }
 
   /* || Bottom Nav Section */
@@ -825,12 +824,8 @@ footer {
 
   .nav-links {
     margin: 0;
-    text-decoration: none;
     font-size: 0.75rem;
     font-weight: 400;
-    color: white;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px #1B262C;
   }
 
   /* || DROPDOWN HELP */
@@ -842,16 +837,8 @@ footer {
   }
 
   .dropdown .dropbtn {
-    font-family: 'Saira', sans-serif;
-    cursor: pointer;
     font-size: 0.75rem;
     font-weight: 400;
-    color: white;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px #1B262C;
-    border: none;
-    outline: none;
-    background-color: inherit;
     margin: 0;
   }
 
@@ -861,43 +848,20 @@ footer {
   }
 
   .dropdown-content {
-    top: 2.97rem;
+    top: 2.9rem;
     width: 100%;
     padding-left: 0;
     clip-path: none;
     flex-direction: column;
-    line-height: 1rem;
+    z-index: 999;
   }
 
   .dropdown-content a {
-    font-family: 'Saira', sans-serif;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    color: white;
-    letter-spacing: 2px;
-    line-height: 3.03rem;
-    text-shadow: 1px 1px #1B262C;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+    line-height: 3.4rem;
     width: 100vw;
   }
 
-  .dropdown-content a:hover {
-    color: #023859;
-    font-weight: 800;
-    text-shadow: none;
-  }
-
-  .show {
-    display: flex;
-  }
-
-  .heading-container {
-    display: none;
-  }
-
+  /* || Heading Section */
   .about-container {
     display: none;
   }
