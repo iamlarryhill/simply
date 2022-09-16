@@ -500,18 +500,6 @@ footer {
   clip-path: polygon(10.2% 0, 100% 0%, 89.8% 100%, 0% 100%);
 }
 
-.deliver-btn:after {
-  content: "";
-  position: absolute;
-  margin: -20px;
-  width: 50px;
-  height: 6rem;
-  top: 0;
-  right: 26.5%;
-  transform: rotate(30deg);
-  background-color: RED;
-}
-
 .deliver-btn:hover {
   background-color: white;
 }
@@ -722,7 +710,7 @@ footer {
   padding-right: 5rem;
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 500px) {
 
   /* || Top Nav Section */
   .top-nav {
@@ -739,6 +727,7 @@ footer {
   .quote-btn {
     border-radius: 3px;
     clip-path: inherit;
+    padding: 0.36rem 1rem;
   }
 
   .social {
@@ -788,7 +777,7 @@ footer {
     height: 144px;
     left: 0;
     top: 0;
-    padding-right: 4rem;
+    padding-right: 1.25rem;
   }
 
   .call-us {
@@ -837,8 +826,8 @@ footer {
   .nav-links {
     margin: 0;
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.75rem;
+    font-weight: 400;
     color: white;
     letter-spacing: 2px;
     text-shadow: 1px 1px #1B262C;
@@ -855,8 +844,8 @@ footer {
   .dropdown .dropbtn {
     font-family: 'Saira', sans-serif;
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.75rem;
+    font-weight: 400;
     color: white;
     letter-spacing: 2px;
     text-shadow: 1px 1px #1B262C;
