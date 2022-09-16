@@ -50,6 +50,10 @@ footer {
   letter-spacing: 1px;
 }
 
+.media-break {
+  display: none;
+}
+
 /* || Navbar Section */
 .nav-container {
   position: relative;
@@ -735,7 +739,12 @@ footer {
     margin: 0 1.05rem;
   }
 
-  .email {
+.email {
+  display: none;
+}
+
+  /* USE IF SHOWING MORE NAV OPTIONS */
+  /* .email {
     position: absolute;
     left: 0.5rem;
     top: 7rem;
@@ -757,12 +766,12 @@ footer {
     padding: 0.5rem !important;
     float: left !important;
     margin: 0;
-  }
+  } */
 
   /* || Middle Nav Section */
   .mid-nav {
     text-align: center;
-    height: 10rem;
+    height: 4rem; /* 10rem if showing more options */
   }
 
   .mid-nav h1 {
@@ -772,6 +781,16 @@ footer {
   }
 
   .nav-logo {
+    display: none;
+  }
+
+  .call-us {
+    display: none;
+  }
+
+
+/* USE IF SHOWING MORE NAV OPTIONS */
+  /* .nav-logo {
     position: absolute;
     clear: none;
     height: 7.5rem;
@@ -800,7 +819,7 @@ footer {
 
   .nav-phone {
     padding: 0.5rem !important;
-  }
+  } */
 
   /* || Bottom Nav Section */
   .bottom-nav {
@@ -848,7 +867,7 @@ footer {
   }
 
   .dropdown-content {
-    top: 2.9rem;
+    top: 10rem;
     width: 100%;
     padding-left: 0;
     clip-path: none;
@@ -857,11 +876,59 @@ footer {
   }
 
   .dropdown-content a {
-    line-height: 3.4rem;
+    line-height: 2.5rem;
     width: 100vw;
   }
 
   /* || Heading Section */
+  .heading-container {
+    height: 30rem;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .heading-text {
+    width: 95vw;
+  }
+
+  .heading1 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+
+  .heading-container p {
+    font-size: 0.9rem
+  }
+
+  .book-btn {
+    clip-path: none;
+    border-radius: 3px;
+    padding: 0.5rem 2.2675rem;
+  }
+
+  .media-break {
+    display: block;
+  }
+
+  .call-btn {
+    clip-path: none;
+    border-radius: 3px;
+  }
+
+  .heading-container {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 35px), 50% 100%, 0 calc(100% - 35px));
+  }
+
+  .about-container {
+    clip-path: polygon(0 0, 50% 35px, 100% 0, 100% 100%, 0 100%);
+    margin-top: -35px;
+  }
+
+
+
+
+
   .about-container {
     display: none;
   }
