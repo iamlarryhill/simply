@@ -896,6 +896,10 @@ footer {
     width: 100vw;
     text-align: center;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: top;
   }
 
   .heading-text {
@@ -940,7 +944,7 @@ footer {
     position: relative;
     background-color: white;
     width: 100vw;
-    padding: 5rem 0 0 0;
+    padding: 5rem 0 2.5rem 0;
     text-align: center;
   }
 
@@ -954,7 +958,7 @@ footer {
   }
 
   .about-container p {
-    letter-spacing: 1px;
+    letter-spacing: 0;
     margin-bottom: 1rem;
     font-size: 0.9rem
   }
@@ -1025,11 +1029,13 @@ footer {
   }
 
   .deliver-container {
-    padding: 5rem 0 3rem 0;
+    padding: 5rem 0;
+    background-size: auto;
   }
 
   .deliver-container h1 {
     font-size: 5vw;
+    margin-bottom: 2rem;
   }
 
   .desktop-break {
@@ -1053,13 +1059,13 @@ footer {
   }
 
   .footer-title {
-    top: 2rem;
+    top: 2.5rem;
     font-size: 6vw;
     letter-spacing: 2px;
   }
 
   .contact-grid {
-    top: 5rem;
+    top: 6rem;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     width: 95vw;
