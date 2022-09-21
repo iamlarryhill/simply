@@ -918,7 +918,9 @@ footer {
   .book-btn {
     clip-path: none;
     border-radius: 3px;
-    padding: 0.5rem 2.2675rem;
+    width: 60%;
+    display: inline-block;
+    padding: 0.5rem 0;
   }
 
   .media-break {
@@ -928,6 +930,10 @@ footer {
   .call-btn {
     clip-path: none;
     border-radius: 3px;
+    width: 60%;
+    display: inline-block;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
   }
 
   .heading-container {
@@ -1008,7 +1014,7 @@ footer {
     margin: 0;
     text-align: center;
     margin-top: 2rem;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
   }
 
   .service-icon {
