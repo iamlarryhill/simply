@@ -619,7 +619,7 @@ footer {
     padding: 0.5rem !important;
   }
   */
-  
+
   /* || Bottom Nav Section */
   .bottom-nav {
     float: inherit;
@@ -681,38 +681,18 @@ footer {
 
   /* || Heading Section */
   .heading-container {
-    height: 15rem;
-    width: 100vw;
-    padding: 0;
-    text-align: center;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    background-position: top;
-  }
-
-  .heading1 {
-    font-size: 6vw;
-    line-height: 2rem;
-  }
-
-  .media-break {
-    display: block;
-  }
-
-  .heading-container {
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 35px), 50% 100%, 0 calc(100% - 35px));
+    display: none;
   }
 
   .cta-container {
-    clip-path: polygon(0 0, 50% 35px, 100% 0, 100% 100%, 0 100%);
-    margin-top: -35px;
+    clip-path: none;
+    margin-top: 0;
   }
+
 
   /* || CTA Section */
   .cta-container {
-    padding: 5rem 0 2.5rem;
+    padding: 2.5rem 0;
   }
 
   .cta-box {

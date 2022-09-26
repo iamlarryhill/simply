@@ -755,7 +755,7 @@ iframe {
 
   /* || Heading Section */
   .heading-container {
-    height: 15rem;
+    height: 10rem;
     width: 100vw;
     padding: 0;
     text-align: center;
@@ -811,7 +811,8 @@ iframe {
     margin-left: calc(0.5rem - 2px);
     -moz-appearance: none;
     -webkit-appearance: none;
-  appearance: none;
+    appearance: none;
+    border-radius: 0px;
   }
 
   button[type=submit] {
