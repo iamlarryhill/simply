@@ -339,6 +339,9 @@ footer {
   text-shadow: 1px 1px #1b262c;
   box-shadow: 1px 1px 5px #1b262c;
   clip-path: polygon(9.6% 0, 100% 0%, 90.4% 100%, 0% 100%);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .book-btn:hover {
@@ -355,6 +358,9 @@ footer {
   text-shadow: 1px 1px #1b262c;
   box-shadow: 1px 1px 5px #1b262c;
   clip-path: polygon(9.2% 0, 100% 0%, 90.8% 100%, 0% 100%);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .call-btn:hover {
