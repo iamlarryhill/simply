@@ -809,6 +809,19 @@ iframe {
 
   [type="file"]::-webkit-file-upload-button {
     margin-left: calc(0.5rem - 2px);
+    text-transform: uppercase;
+    float: left;
+    background-color: #30C5FF;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    padding: 0.5rem 2rem 0.5rem 1.25rem;
+    text-shadow: 1px 1px #1b262c;
+    box-shadow: 1px 1px 5px #1b262c;
+    clip-path: polygon(0 0, 100% 0%, 88.4% 100%, 0% 100%);
+    cursor: pointer;
+    border: none;
   }
 
   button[type=submit] {
