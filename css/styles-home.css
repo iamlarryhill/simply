@@ -162,10 +162,10 @@ footer {
 }
 
 .nav-logo {
-  height: 10rem;
+  height: 7.35rem;
   position: absolute;
-  left: 20.7%;
-  top: -2.9rem;
+  left: 19.5%;
+  top: 0;
 }
 
 .image-logo {
@@ -335,13 +335,18 @@ footer {
   font-weight: 600;
   color: white;
   letter-spacing: 1px;
-  padding: 0.5rem 2rem;
   text-shadow: 1px 1px #1b262c;
   box-shadow: 1px 1px 5px #1b262c;
   clip-path: polygon(9.6% 0, 100% 0%, 90.4% 100%, 0% 100%);
+  margin: 0;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  width: 60%;
+  max-width: 15.5rem;
+  display: inline-block;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 .book-btn:hover {
@@ -354,13 +359,18 @@ footer {
   font-weight: 600;
   color: white;
   letter-spacing: 1px;
-  padding: 0.5rem 2.3535rem;
   text-shadow: 1px 1px #1b262c;
   box-shadow: 1px 1px 5px #1b262c;
-  clip-path: polygon(9.2% 0, 100% 0%, 90.8% 100%, 0% 100%);
+  clip-path: polygon(9.6% 0, 100% 0%, 90.4% 100%, 0% 100%);
+  margin: 0;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  width: 60%;
+  max-width: 15.5rem;
+  display: inline-block;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 .call-btn:hover {
@@ -438,6 +448,7 @@ footer {
 
 .service-container p {
   color: #1B262C;
+  padding: 0 5%;
 }
 
 .service-grid {
@@ -504,10 +515,18 @@ footer {
   font-weight: 600;
   color: white;
   letter-spacing: 1px;
-  padding: 0.5rem 3rem;
   text-shadow: 1px 1px #1b262c;
   box-shadow: 1px 1px 5px #1b262c;
-  clip-path: polygon(10.2% 0, 100% 0%, 89.8% 100%, 0% 100%);
+  clip-path: polygon(9.6% 0, 100% 0%, 90.4% 100%, 0% 100%);
+  margin: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 60%;
+  max-width: 15.5rem;
+  display: inline-block;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 .deliver-btn:hover {
@@ -703,7 +722,7 @@ footer {
 .mid-serv {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
   align-items: center;
   text-align: left;
   padding: 1rem 0;
@@ -724,7 +743,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 900px) {
 
   /* || Top Nav Section */
   .top-nav {
@@ -913,18 +932,20 @@ footer {
   }
 
   .heading1 {
-    font-size: 6vw;
+    font-size: 250%;
     line-height: 2rem;
   }
 
   .heading-container p {
-    font-size: 0.9rem
+    font-size: 0.9rem;
+    padding: 0 5%;
   }
 
   .book-btn {
     clip-path: none;
     border-radius: 3px;
     width: 60%;
+    max-width: 15.5rem;
     display: inline-block;
     padding: 0.5rem 0;
   }
@@ -937,6 +958,7 @@ footer {
     clip-path: none;
     border-radius: 3px;
     width: 60%;
+    max-width: 15.5rem;
     display: inline-block;
     padding: 0.5rem 0;
     margin-top: 1rem;
@@ -977,7 +999,7 @@ footer {
 
   .about-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     width: 95%;
     margin: 0 auto;
     color: #1B262C;
@@ -986,7 +1008,7 @@ footer {
   }
 
   .new-collage {
-    width: 95%;
+    width: 90%;
     border-radius: 10px;
     opacity: 0.65;
   }
@@ -1023,12 +1045,16 @@ footer {
     padding-bottom: 5rem;
   }
 
+  .service-grid h2 {
+margin: 0;
+}
+
   .service-icon {
     width: 50%;
   }
 
   .service-title {
-    font-size: 4vw;
+    font-size: 100%;
   }
 
   .service-container {
@@ -1057,12 +1083,16 @@ footer {
   .deliver-btn {
     border-radius: 3px;
     clip-path: none;
+    width: 60%;
+    max-width: 15.5rem;
+    display: inline-block;
+    padding: 0.5rem 0;
   }
 
   /* || Footer Section */
   .contact-container {
     background-color: #1B262C;
-    height: 45rem;
+    height: 42rem;
     position: relative;
   }
 
@@ -1072,7 +1102,7 @@ footer {
 
   .footer-title {
     top: 2.5rem;
-    font-size: 6vw;
+    font-size: 1.5rem;
     letter-spacing: 2px;
   }
 
@@ -1119,6 +1149,7 @@ footer {
     text-align: center;
     padding: 0;
     font-size: 0.9rem;
+    padding-left: 10vw;
   }
 
   /* || Footer Right Section */
@@ -1129,7 +1160,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 0;
-    padding-right: 0;
+    padding-right: 10vw;
     font-size: 0.9rem;
   }
 
@@ -1140,7 +1171,7 @@ footer {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    bottom: 3rem;
-    width: 30vw;
+    bottom: 2.6rem;
+    height: 21.2%;
   }
 }
