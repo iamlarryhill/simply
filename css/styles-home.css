@@ -124,8 +124,8 @@ footer {
   right: 0;
   top: 0;
   line-height: 3rem;
-  margin-right: 4.3%;
   z-index: 1;
+  width: 20%;
 }
 
 .email p {
@@ -133,11 +133,14 @@ footer {
   float: right;
   letter-spacing: 1px;
   font-weight: 600;
+  font-size: 1.05vw;
+    padding-right: 1.6vw;
 }
 
 .nav-solid {
-  padding: 1rem !important;
+  padding: 1rem 0 1rem 1rem!important;
   float: left !important;
+  margin-right: 0 !important;
 }
 
 /* || Middle Nav Section */
@@ -154,7 +157,7 @@ footer {
   width: 50vw;
   float: left;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3vw;
   margin-left: 25vw;
   letter-spacing: 2px;
   text-shadow: 1.5px 1.5px #86A8CA;
@@ -162,46 +165,48 @@ footer {
 }
 
 .nav-logo {
-  height: 7.35rem;
+  width: 6.45%;
   position: absolute;
   left: 19.5%;
   top: 0;
 }
 
 .image-logo {
-  height: 95%;
+  width: 100%;
 }
 
 .call-us {
   position: absolute;
-  width: 17.4rem;
+  width: 20%;
   color: #023859;
   right: 0;
   top: 0;
   line-height: 4rem;
-  margin-right: 4.3%;
   z-index: 1;
 }
 
 .call-us p {
   margin: 0;
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 600;
 }
 
 .nav-phone {
-  padding: 1.5rem 1rem !important;
+  padding: 1.5rem 0rem 1.5rem 1rem !important;
+  margin-right: 0 !important;
 }
 
 /* || Bottom Nav Section */
 .bottom-nav {
+  position: relative;
   float: right;
   width: 72.5%;
+  max-width: 1220px;
+  min-width: 1001px;
   background-color: #023859;
   line-height: 3rem;
   text-align: left;
-  overflow: hidden;
 }
 
 .bottom-nav:after {
@@ -209,18 +214,20 @@ footer {
   position: absolute;
   width: 38px;
   height: 3.8906rem;
-  top: 6.079rem;
-  right: 71.56%;
+  top: -17px;
+  left: -21.5px;
   transform: rotate(30deg);
   background-color: white;
 }
 
 .nav-options {
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-links {
-  margin: 0 7.5%;
+  margin: 0;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
@@ -232,8 +239,8 @@ footer {
 /* || DROPDOWN HELP */
 .nav-dropdown {
   width: auto;
-  display: inline-block;
-  margin: 0 7.5%;
+  display: inline-flex;
+  margin: 0;
   line-height: normal;
 }
 
@@ -260,13 +267,13 @@ footer {
   text-align: center;
   display: none;
   position: absolute;
-  right: 0;
-  top: 10.07rem;
-  width: 66.25%;
+  left: 0;
+  top: 3rem;
+  width: 100%;
   background-color: #30C5FF;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  padding-left: 6.236vw;
+  justify-content: space-evenly;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 2.23% 100%);
 }
 
@@ -282,7 +289,6 @@ footer {
   text-decoration: none;
   display: block;
   text-align: center;
-  width: 20vw;
 }
 
 .dropdown-content a:hover {
@@ -319,8 +325,8 @@ footer {
 }
 
 .heading1 {
-  font-size: 4.5rem;
-  line-height: 4.5rem;
+  font-size: 4.5vw;
+  line-height: 4.5vw;
   text-shadow: 3px 3px #1B262C;
 }
 
@@ -351,6 +357,10 @@ footer {
 
 .book-btn:hover {
   background-color: white;
+}
+
+.media-break2 {
+  display: none;
 }
 
 .call-btn {
@@ -401,9 +411,11 @@ footer {
   margin-bottom: 2rem;
   letter-spacing: 1px;
   text-shadow: 2px 2px #86A8CA;
+  font-size: 3vw;
 }
 
 .about-container p {
+  font-size: 0.9rem;
   letter-spacing: 1px;
   margin-bottom: 2rem;
 }
@@ -418,14 +430,20 @@ footer {
   grid-gap: 4rem;
 }
 
-.new-collage {
-  width: 100%;
-  border-radius: 10px;
-  opacity: 0.65;
+.img-box {
+  position: relative;
 }
 
-.new-collage:hover {
-  opacity: 0.9;
+.new-collage {
+  width: 90%;
+  border-radius: 10px;
+  opacity: 0.65;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .about-box {
@@ -444,6 +462,7 @@ footer {
   margin-bottom: 2rem;
   letter-spacing: 1px;
   text-shadow: 2px 2px #86A8CA;
+  font-size: 3vw;
 }
 
 .service-container p {
@@ -454,7 +473,8 @@ footer {
 .service-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 60vw;
+  width: 85vw;
+  max-width: 65rem;
   margin: 0 auto;
   text-align: center;
   margin-top: 2rem;
@@ -503,6 +523,7 @@ footer {
   margin-bottom: 5rem;
   letter-spacing: 1px;
   text-shadow: 2px 2px #1B262C;
+  font-size: 3vw;
 }
 
 .deliver-container p {
@@ -549,14 +570,15 @@ footer {
   width: 100vw;
   height: 15vw;
   position: absolute;
-  top: -9.5rem;
+  top: -9.5vw;
   perspective: 800px;
   transform-style: preserve-3d;
 }
 
 #slider label {
   margin: auto;
-  width: 50%;
+  width: 75%;
+  max-width: 55rem;
   height: 20%;
   border-radius: 4px;
   position: absolute;
@@ -599,7 +621,7 @@ footer {
 .why-box {
   background-color: white;
   position: relative;
-  padding: 2rem 1rem;
+  padding: 2vw 1vw;
   color: #1B262C;
   height: 15rem;
   border-radius: 5px;
@@ -618,7 +640,7 @@ footer {
 .why-box h3 {
   color: #1B262C;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.25vw;
   line-height: 4rem;
   text-align: left;
   margin-bottom: 1rem;
@@ -658,7 +680,8 @@ footer {
   bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr 0.5fr 0.5fr;
-  width: 65vw;
+  width: 100vw;
+  max-width: 1125px;
   height: 12rem;
   padding: 1rem;
 }
@@ -743,14 +766,15 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 1000px) {
 
   /* || Top Nav Section */
   .top-nav {
-    width: 100%;
+    width: 90%;
     text-align: center;
     height: 3rem;
     z-index: 999;
+    padding: 0 5vw;
   }
 
   .top-nav:after {
@@ -777,38 +801,13 @@ footer {
     display: none;
   }
 
-  /* USE IF SHOWING MORE NAV OPTIONS */
-  /* .email {
-    position: absolute;
-    left: 0.5rem;
-    top: 7rem;
-    margin-right: 0;
-    z-index: 5;
-    width: 75%;
-    line-height: 2rem;
-    text-align: left;
-  }
-
-  .email p {
-    margin: 0;
-    float: none;
-    letter-spacing: 1px;
-    font-weight: 600;
-  }
-
-  .nav-solid {
-    padding: 0.5rem !important;
-    float: left !important;
-    margin: 0;
-  } */
-  /* || Middle Nav Section */
+  /* || Mid Nav Section */
   .mid-nav {
     text-align: center;
-    /* 10rem if showing more options */
   }
 
   .mid-nav h1 {
-    font-size: 6vw;
+    font-size: 5vw;
     margin: 1rem 0;
     text-align: center;
     width: 100%;
@@ -823,47 +822,14 @@ footer {
     display: none;
   }
 
-  /* USE IF SHOWING MORE NAV OPTIONS */
-  /*
-  .nav-logo {
-    position: absolute;
-    clear: none;
-    height: 5rem;
-    left: 6.25%;
-    top: 0;
-  }
-
- .call-us {
-    position: absolute;
-    width: 75%;
-    color: #023859;
-    left: 0.5rem;
-    top: 6.5rem;
-    line-height: 2rem;
-    margin-right: 0;
-    z-index: 1;
-    text-align: left;
-  }
-
-  .call-us p {
-    margin: 0;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    font-weight: 600;
-  }
-
-  .nav-phone {
-    padding: 0.5rem !important;
-  }
-  */
   /* || Bottom Nav Section */
   .bottom-nav {
-    float: inherit;
     width: 100%;
+    max-width: 1000px;
+    min-width: 601px;
     background-color: #023859;
     line-height: 3rem;
     text-align: center;
-    overflow: hidden;
   }
 
   .bottom-nav:after {
@@ -902,17 +868,18 @@ footer {
   }
 
   .dropdown-content {
-    top: 9.5rem;
+    top: 3rem;
     width: 100%;
     padding-left: 0;
     clip-path: none;
-    flex-direction: column;
+    /* flex-direction: column; */
     z-index: 999;
   }
 
   .dropdown-content a {
-    line-height: 2.5rem;
+    font-size: 0.8rem;
     width: 100vw;
+    line-height: 3rem;
   }
 
   /* || Heading Section */
@@ -939,6 +906,7 @@ footer {
   .heading-container p {
     font-size: 0.9rem;
     padding: 0 5%;
+    margin-bottom: 1rem;
   }
 
   .book-btn {
@@ -948,6 +916,11 @@ footer {
     max-width: 15.5rem;
     display: inline-block;
     padding: 0.5rem 0;
+    margin-right: 0.5rem;
+  }
+
+  .media-break2 {
+    display: none;
   }
 
   .media-break {
@@ -962,6 +935,7 @@ footer {
     display: inline-block;
     padding: 0.5rem 0;
     margin-top: 1rem;
+    margin-left: 0.5rem;
   }
 
   .heading-container {
@@ -988,7 +962,7 @@ footer {
     margin-bottom: 1rem;
     letter-spacing: 1px;
     text-shadow: 2px 2px #86A8CA;
-    font-size: 6vw;
+    font-size: 200%;
   }
 
   .about-container p {
@@ -998,28 +972,13 @@ footer {
   }
 
   .about-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     width: 95%;
     margin: 0 auto;
     color: #1B262C;
     padding: 0;
     grid-gap: 1rem;
-  }
-
-  .new-collage {
-    width: 90%;
-    border-radius: 10px;
-    opacity: 0.65;
-  }
-
-  .new-collage:hover {
-    opacity: 0.9;
-  }
-
-  .about-box {
-    grid-row-start: 1;
-    place-self: center;
   }
 
   /* || Service Section */
@@ -1030,7 +989,7 @@ footer {
   .service-container h1 {
     padding-top: 1rem;
     margin-bottom: 2rem;
-    font-size: 6vw;
+    font-size: 200%;
   }
 
   .service-container p {
@@ -1039,15 +998,16 @@ footer {
 
   .service-grid {
     width: 100vw;
-    margin: 0;
+    max-width: 50rem;
+    margin: 0 auto;
     text-align: center;
     margin-top: 2rem;
     padding-bottom: 5rem;
   }
 
   .service-grid h2 {
-margin: 0;
-}
+    margin: 0;
+  }
 
   .service-icon {
     width: 50%;
@@ -1072,7 +1032,7 @@ margin: 0;
   }
 
   .deliver-container h1 {
-    font-size: 5vw;
+    font-size: 200%;
     margin-bottom: 2rem;
   }
 
@@ -1092,7 +1052,7 @@ margin: 0;
   /* || Footer Section */
   .contact-container {
     background-color: #1B262C;
-    height: 42rem;
+    height: 31rem;
     position: relative;
   }
 
@@ -1111,7 +1071,8 @@ margin: 0;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     width: 95vw;
-    height: 25rem;
+    max-width: 45rem;
+    height: 0;
     padding: 0;
   }
 
@@ -1136,8 +1097,10 @@ margin: 0;
     font-size: 0.9rem;
   }
 
-  .fa-xl {
-    display: none;
+  .fa-location-dot,
+  .fa-envelope,
+  .fa-phone {
+    visibility: collapse;
   }
 
   /* || Footer Middle Section */
@@ -1146,7 +1109,7 @@ margin: 0;
     grid-template-columns: 1fr;
     grid-template-rows: 25% 25% 25% 25%;
     align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 0;
     font-size: 0.9rem;
     padding-left: 10vw;
@@ -1158,7 +1121,7 @@ margin: 0;
     grid-template-columns: 1fr;
     grid-template-rows: 25% 25% 25% 25%;
     align-items: center;
-    text-align: center;
+    text-align: right;
     padding: 0;
     padding-right: 10vw;
     font-size: 0.9rem;
@@ -1171,7 +1134,113 @@ margin: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    bottom: 2.6rem;
-    height: 21.2%;
+    bottom: 3rem;
+    height: 17.5%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+
+  /* || Top Nav Section */
+  .top-nav {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* || Middle Nav Section */
+  .mid-nav {
+    text-align: center;
+  }
+
+  .mid-nav h1 {
+    font-size: 6vw;
+  }
+
+  /* || Bottom Nav Section */
+  .bottom-nav {
+    max-width: 600px;
+    min-width: inherit;
+  }
+
+  /* || DROPDOWN HELP */
+  .dropdown-content {
+    flex-direction: column;
+  }
+
+  .dropdown-content a {
+    line-height: 2.5rem;
+    width: 100vw;
+  }
+
+  /* || Heading Section */
+  .book-btn {
+    padding: 0.5rem 0;
+    margin-right: 0;
+  }
+
+  .media-break,
+  .media-break2 {
+    display: block;
+  }
+
+  .call-btn {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  /* || About Section */
+  .about-container h1 {
+    font-size: 6vw;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .new-collage {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  .about-box {
+    grid-row-start: 1;
+    place-self: center;
+    text-align: center;
+  }
+
+  /* || Service Section */
+  .service-container h1 {
+    font-size: 6vw;
+  }
+
+  .service-title {
+    font-size: 100%;
+  }
+
+  .deliver-container h1 {
+    font-size: 5vw;
+  }
+
+  /* || Footer Section */
+  .contact-container {
+    background-color: #1B262C;
+    position: relative;
+  }
+
+  .contact-grid {
+    top: 6rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    width: 95vw;
+    padding: 0;
+  }
+
+  .contact-grid .nav-links {
+    font-weight: 500;
   }
 }
