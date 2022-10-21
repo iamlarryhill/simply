@@ -427,6 +427,13 @@ footer {
   display: none;
 }
 
+.lk-logo {
+  width: 2rem;
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+
 @media only screen and (max-width : 1440px) {
   h1 {
     font-size: 3vw;

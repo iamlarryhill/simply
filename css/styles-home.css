@@ -369,7 +369,6 @@
   }
 }
 
-
 @media only screen and (max-width : 1024px) {
 
   /* || Heading Section */
@@ -461,13 +460,30 @@
   }
 
   .about-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    width: 95%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 40vw;
+    width: 75%;
     margin: 0 auto;
     color: #1B262C;
     padding: 0;
     grid-gap: 1rem;
+  }
+
+  .new-collage {
+    width: 60%;
+    min-width: 20rem;
+    border-radius: 10px;
+    opacity: 0.65;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .about-box {
+    grid-row-start: 1;
   }
 
   /* || Service Section */
@@ -567,6 +583,8 @@
   }
 
   .new-collage {
+    width: 70vw;
+    min-width: 17.5rem;
     position: relative;
     top: inherit;
     left: inherit;
